@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact-Me</title>
+</head>
+<style>
+	#formwrapper {
+		width: 300px;
+		height: auto;
+		background-color: #FFF
+	}
+	form {
+		width: 300px;
+		height: auto;
+		background-color: #FFF;
+	}
+	fieldset {
+		background-color: #F1FBFB;
+		border: none;
+		padding-bottom: 10px;
+	}
+	h1 {
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		font-size: 16px;
+		color: #000;
+	}
+	label {
+		width: 250px;
+		display: block;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		font-size: 11px;
+		color: #000;
+		margin-top: 5px;
+		margin-right: 0px;
+		margin-bottom: 5px;
+		margin-left: 0px;
+	}
+	input {
+		width: 250px;
+		border: thin solid #6CF;
+		margin-bottom: 10px;
+	}
+	textarea {
+		width: 250px;
+		border: thin solid #6CF;
+		margin-bottom: 10px;
+	}
+	.btn {
+		width: 50px;
+		height: 20px;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		color: #FFF;
+		font-weight: bold;
+		background-color: #6CF;
+		margin-left: 10px;
+		float: left;
+	}
+	.btn {
+		width: 50px;
+		height: 20px;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		color: #FFF;
+		font-weight: bold;
+		background-color: #6CF;
+		margin-left: 10px;
+		float: left;
+	}
+	</style>
+<body>
+	
+	<div id="formwrapper">
+	<form action="conatctform.php" method="post">
+		<fieldset>
+			<h1>Contact Me</h1>
+		<label for="name">Your Name:</label>
+			<input type="text" name="name" size="40" maxlength="100">
+		<label for="email">Your email:</label>
+			<input type="text" name="email" size="40" maxlength="100">
+			<label for="phone">Your Phone Number:</label>
+			<input type="text" name="phone" size="40" maxlength="100">
+			<label for="message">Your Message:</label>
+			<textarea type="text" name="message" cols="40" rows="10"></textarea>
+		<input name="submit" type="submit" class="btn" formaction="Messagesent.html" value="Send">
+			<input name="submit" type="submit" class="btn" formaction="index.html" value="Home">
+</fieldset>
+		
+		
+		
+		</form>
+	</div>
+	<div>
+	<table width="200" border="1">
+  <caption>
+    Details
+  </caption>
+  <tbody>
+    <tr>
+      <th scope="row">&nbsp;Name</th>
+      <td>&nbsp;David Brown</td>
+    </tr>
+    <tr>
+      <th scope="row">Experience&nbsp;</th>
+      <td>&nbsp;Concreting,electrical,woodworking and general construction.</td>
+    </tr>
+    <tr>
+      <th scope="row">Phone Number&nbsp;</th>
+      <td>&nbsp;123456789</td>
+    </tr>
+    <tr>
+      <th scope="row">Hourly rate&nbsp;</th>
+      <td>&nbsp;$25 Mon - Fri and $45 on weekends.&nbsp;&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+
+	
+	</div>
+</body>
+</html>
